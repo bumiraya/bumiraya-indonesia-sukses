@@ -192,9 +192,33 @@ body {
 
 .about .row .content p {
   margin-bottom: 0.8rem;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   font-weight: 100;
   line-height: 1.6;
+}
+
+/* Management Section */
+.management h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 3rem 7% 3rem;
+}
+
+.management .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+.management .row .management-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.management .row .management-card-img {
+  border-radius: 10%;
+  width: 90%;
 }
 
 /* Product Section */
@@ -237,6 +261,9 @@ body {
   display: flex;
   margin-top: 2rem;
   background-color: #222;
+}
+
+.contact .content h3 {
 }
 
 .contact .row .map {
